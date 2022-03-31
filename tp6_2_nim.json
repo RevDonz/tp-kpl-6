@@ -1,0 +1,18 @@
+[
+	{
+		"kode_matkul": "CRI2D3",
+		"nama_matkul": "Kecerdasan Buatan"
+	},
+	{
+		"kode_matkul": "CRI2E4",
+		"nama_matkul": "Basis Data"
+	},
+	{
+		"kode_matkul": "CRI2C4",
+		"nama_matkul": "Konstruksi Perangkat Lunak"
+	},
+	{
+		"kode_matkul": "CII3B4",
+		"nama_matkul": "Pemrograman Berorientasi Objek"
+	}
+]
