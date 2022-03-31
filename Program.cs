@@ -1,3 +1,4 @@
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,16 +12,17 @@ internal class MainClass
 {
     public static void Main(string[] args)
     {
-        //Console.WriteLine("Halo Dunia");
-        //Console.WriteLine("Zahrandi tamvan");
-        //Console.WriteLine("Anyeongggggg");
-
-
+        // Membaca File JSON
         String jsonString = File.ReadAllText("E://SEMESTER 4/Konstruksi Perangkat Lunak/Praktikum/Modul 5/tpmodul6_kelompok_04/tp6_2_nim.json");
 
-        KuliahMahasiswa1302204051 mhs1 = JsonSerializer.Deserialize<KuliahMahasiswa1302204051>(jsonString);
+        // Convert JSON menjadi Array
+        dynamic array = JsonConvert.DeserializeObject(jsonString);
 
-        //Console.WriteLine("Kode Mata Kuliah : " + mhs1.kode_matkul);
-        //Console.WriteLine("Nama mata Kuliah : " + mhs1.nama_matkul);
+        // Menampilkan JSON dengan Loop Foreach
+        foreach (var item in array)
+        {
+            Console.WriteLine("Kode matkul : " + item.kode_matkul);
+            Console.WriteLine("Nama matkul : " + item.nama_matkul + "\n");
+        }
     }
 }
