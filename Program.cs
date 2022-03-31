@@ -12,5 +12,6 @@ internal class MainClass
     {
         Console.WriteLine("Halo Dunia");
         Console.WriteLine("Zahrandi tamvan");
+        Console.WriteLine("Anyeongggggg");
     }
 }
