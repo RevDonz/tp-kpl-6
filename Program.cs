@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,5 +11,6 @@ internal class MainClass
     public static void Main(string[] args)
     {
         Console.WriteLine("Halo Dunia");
+        Console.WriteLine("Zahrandi tamvan");
     }
 }
