@@ -1,0 +1,38 @@
+[
+	{
+		"nama_depan": "Andrew",
+		"nama_belakang": "Hutagalung",
+		"nim": "1302245018",
+		"fakultas": "Fakultas Ilmu Terapan"
+	},
+	{
+		"nama_depan": "Sidiq",
+		"nama_belakang": "Lailasari",
+		"nim": "1302400031",
+		"fakultas": "Fakultas Ekonomi Bisnis"
+	},
+	{
+		"nama_depan": "Elvin",
+		"nama_belakang": "Wasita",
+		"nim": "1302219301",
+		"fakultas": "Fakultas Informatika"
+	},
+	{
+		"nama_depan": "Jono",
+		"nama_belakang": "Budiman",
+		"nim": "130299051",
+		"fakultas": "Fakultas Industri Kreatif"
+	},
+	{
+		"nama_depan": "Akarsana",
+		"nama_belakang": "Salahudin",
+		"nim": "130980801",
+		"fakultas": "Fakultas Informatika"
+	},
+	{
+		"nama_depan": "Lindsey",
+		"nama_belakang": "Suwarno",
+		"nim": "1302220901",
+		"fakultas": "Fakultas Rekayasa Industri"
+	},
+]
