@@ -12,17 +12,10 @@ internal class MainClass
 {
     public static void Main(string[] args)
     {
-        // Membaca File JSON
-        String jsonString = File.ReadAllText("E://SEMESTER 4/Konstruksi Perangkat Lunak/Praktikum/Modul 5/tpmodul6_kelompok_04/tp6_2_nim.json");
+        DataMahasiswa1302204051 mhs1 = new DataMahasiswa1302204051();
+        mhs1.ReadJSON();
 
-        // Convert JSON menjadi Array
-        dynamic array = JsonConvert.DeserializeObject(jsonString);
-
-        // Menampilkan JSON dengan Loop Foreach
-        foreach (var item in array)
-        {
-            Console.WriteLine("Kode matkul : " + item.kode_matkul);
-            Console.WriteLine("Nama matkul : " + item.nama_matkul + "\n");
-        }
+        KuliahMahasiswa1302204051 dataMhs1 = new KuliahMahasiswa1302204051();
+        dataMhs1.ReadJSON();
     }
 }
