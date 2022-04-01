@@ -12,10 +12,10 @@ internal class MainClass
 {
     public static void Main(string[] args)
     {
-        DataMahasiswa1302204051 mhs1 = new DataMahasiswa1302204051();
+        DataMahasiswa1302204080 mhs1 = new DataMahasiswa1302204080();
         mhs1.ReadJSON();
 
-        KuliahMahasiswa1302204051 dataMhs1 = new KuliahMahasiswa1302204051();
+        KuliahMahasiswa1302204080 dataMhs1 = new KuliahMahasiswa1302204080();
         dataMhs1.ReadJSON();
     }
 }

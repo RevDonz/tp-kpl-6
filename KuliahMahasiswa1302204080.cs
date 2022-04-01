@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace tpmodul6_kelompok_04
 {
-    internal class KuliahMahasiswa1302204051
+    internal class KuliahMahasiswa1302204080
     {
         public void ReadJSON()
         {
             // Membaca File JSON
-            String jsonString = File.ReadAllText("E://SEMESTER 4/Konstruksi Perangkat Lunak/Tugas Pendahuluan/Modul 6/tpmodul6_kelompok_04/tp6_2_nim.json");
+            String jsonString = File.ReadAllText("D:\\Project Koding Kuliah\\KPL\\TP_KPL_MOD6\\tp-kpl-6\\tp6_2_nim.json");
 
             // Convert JSON menjadi Array
             dynamic array = JsonConvert.DeserializeObject(jsonString);
