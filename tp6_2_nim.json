@@ -1,0 +1,30 @@
+[
+	{
+		"kode_matkul": "CRI2D3",
+		"nama_matkul": "Kecerdasan Buatan"
+	},
+	{
+		"kode_matkul": "CRI2E4",
+		"nama_matkul": "Basis Data"
+	},
+	{
+		"kode_matkul": "CRI2C4",
+		"nama_matkul": "Konstruksi Perangkat Lunak"
+	},
+	{
+		"kode_matkul": "CRI2G1",
+		"nama_matkul": "Teknologi Perangkat Lunak Untuk Masyarakat"
+	},
+	{
+		"kode_matkul": "CII2A3",
+		"nama_matkul": "Organisasi dan Arsitektur Komputer"
+	},
+	{
+		"kode_matkul": "CII3B4",
+		"nama_matkul": "Pemrograman Berorientasi Objek"
+	},
+	{
+		"kode_matkul": "CRI2F2",
+		"nama_matkul": "Proyek Tingkat"
+	},
+]
